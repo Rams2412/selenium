@@ -4,7 +4,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 class Report(unittest.TestCase):
 
-    def setUp(self):
+    def setUp(self): #sample test
         #self.driver = webdriver.Remote(command_executor='http://localhost:4444/wd/hub',desired_capabilities=DesiredCapabilities.FIREFOX)
         self.driver = webdriver.Firefox()  
         self.driver.implicitly_wait(30)        
